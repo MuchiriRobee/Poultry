@@ -824,11 +824,11 @@ const prevSlide = () => {
           <div ref={trendsSection.ref} className="max-w-7xl mx-auto px-6">
             <div className={`mb-18 reveal-up ${trendsSection.visible ? 'visible' : ''}`}>
               <div className="tag-pill mb-5">Trends & Insights</div>
-              <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
-                <h2 className="font-display text-4xl md:text-5xl font-700 leading-tight max-w-lg">
+              <div className="flex flex-col  md:items-center justify-between gap-6">
+                <h2 className="font-display text-4xl md:text-5xl font-700 leading-tight ">
                   Kenyan Poultry<br /><em className="not-italic text-emerald-600">News & Trends</em>
                 </h2>
-                <p className="text-slate-500 dark:text-slate-400 max-w-sm font-light leading-relaxed">
+                <p className="text-slate-500 dark:text-slate-400 font-light leading-relaxed">
                   Stay ahead of the market with the latest developments in Kenyan poultry farming.
                 </p>
               </div>
