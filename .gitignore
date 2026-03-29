@@ -1,0 +1,30 @@
+# Root level ignores
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+*.log
+turbo.json.cache
+
+# Frontend (Vite + React)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Backend (Node.js + TypeScript)
+backend/node_modules/
+backend/dist/
+backend/.env
+backend/coverage/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/.env
+.idea/
+*.swp
+*.swo
