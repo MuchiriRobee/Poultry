@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { toast } from 'sonner';
 import {
-  Plus, Eye, Hash, Bird, Layers, FileText,
-  TrendingUp, BarChart3, Egg, ChevronLeft, ChevronRight
+  Plus, FileText,
+  BarChart3, Egg, ChevronLeft, ChevronRight
 } from 'lucide-react';
 import { useSelector } from 'react-redux';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
